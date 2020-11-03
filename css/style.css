@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+/* Smartphones */
+/* Tablet */
+/* Normal */
+/* Widescreen */
+/* Landscape */
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-light {
+  background: #312250 !important;
+}
+.bg-light a {
+  color: #fff !important;
+}
+
+.text-logo {
+  font-family: "Henny Penny", cursive;
+}
+
+.text-title {
+  font-family: "Special Elite", cursive;
+}
+
+.text-purple {
+  color: #312250;
+}
+
+.text-orange {
+  color: #e2b034;
+}
+
+#showcase {
+  background: #e0d8c1;
+}
+#showcase h1 {
+  color: #2c0e0d;
+}
+#showcase img {
+  float: right;
+}
+
+#about {
+  background: #e2b034;
+  color: #312250;
+}
+#about a {
+  color: #e0d8c1;
+}
+#about img {
+  border: 15px solid #312250;
+}
+
+#faq {
+  background: #312250;
+  color: #e0d8c1;
+}
+#contact {
+  background: #e0d8c1;
+  color: #2c0e0d;
+}
+#contact .btn {
+  background: #e2b034;
+  border: #e2b034;
+}
+
+#mainfooter {
+  background: #2c0e0d;
+  color: #e0d8c1;
+}
+
+/*# sourceMappingURL=style.css.map */

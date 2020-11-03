@@ -1,0 +1,105 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+
+// Font
+// $font-title: 'Luckiest Guy', cursive;
+$font-title: 'Special Elite', cursive;
+$font-body: 'Roboto', sans-serif;
+$font-logo: 'Henny Penny', cursive;
+
+// Colors
+// $main-color: #1b0a3d;
+$main-color: #312250;
+$secondary-color: #e0d8c1;
+$third-color: #2c0e0d;
+$fourth-color: #e2b034;
+$gray1-color: #4d4d4d;
+$gray2-color: #707070;
+$gray3-color: #9b9b9a;
+
+// Import
+@import 'mobile';
+
+// START HERE
+// Main Styling
+html,
+body {
+  font-family: $font-body;
+}
+
+// Nav
+.bg-light {
+  background: $main-color !important;
+  a {
+    color: #fff !important;
+  }
+}
+
+.text-logo {
+  font-family: $font-logo;
+}
+
+.text-title {
+  font-family: $font-title;
+}
+
+.text-purple {
+  color: $main-color;
+}
+
+.text-orange {
+  color: $fourth-color
+}
+
+// Showcase
+#showcase {
+  background: $secondary-color;
+  h1 {
+    color: $third-color;
+  }
+  img {
+    float: right;
+  }
+}
+
+// About 
+#about {
+  background: $fourth-color;
+  color: $main-color;
+  a {
+    color: $secondary-color;
+  }
+  img {
+    border: 15px solid $main-color;
+  }
+}
+
+// FAQ
+#faq {
+  background: $main-color;
+  color: $secondary-color;
+  #accordion {
+
+  }
+}
+
+// Contact
+#contact {
+  background: $secondary-color;
+  color: $third-color;
+  .btn {
+    background: $fourth-color;
+    border: $fourth-color;
+  }
+}
+
+#mainfooter {
+  background: $third-color;
+  color: $secondary-color;
+}
